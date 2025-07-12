@@ -1,4 +1,4 @@
-# Robust Control of a Quadrotor UAV: Hierarchical vs Passivity-Based Approach
+# Trajectory Tracking for Quadrotors under External Wrenches: Hierarchical vs Passivity-Based Control
 
 This repository presents the implementation and comparison of two control architectures for a quadrotor UAV:
 
