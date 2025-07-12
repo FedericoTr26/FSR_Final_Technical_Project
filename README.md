@@ -12,10 +12,11 @@ Both control strategies are tested in two scenarios:
 
 ## 🛠️ Requirements
 
-- MATLAB R2023a or newer  
+- MATLAB R2024a or newer  
 - Simulink  
-- Control System Toolbox  
-- 3D Animation Toolbox (optional, for UAV visualization)
+- Control System Toolbox
+- Signal Processing Toolbox
+- UAV Toolbox
 
 ## 🚀 How to Run
 
@@ -27,7 +28,7 @@ Both control strategies are tested in two scenarios:
    run('main.m')           % without disturbance  
    run('main_wrench.m')    % with external disturbance
    ```
-    ### Passivity-Based Control:
+   ### Passivity-Based Control:
    ```matlab
    run('MainPassivityNoDisturbance.m')     % without disturbance  
    run('MainPassivityDisturbance.m')       % with external disturbance  
@@ -41,7 +42,7 @@ Each simulation automatically generates the following:
 - 📈 **Plots** showing:
   - Reference trajectory
   - Position tracking 
-  - Orientation tracking (Euler angles)
+  - Orientation tracking 
   - Control errors and stability behavior
 - 💾 **EPS files** containing all plots, will be saved in the corresponding subfolder for documentation and report inclusion.
 
